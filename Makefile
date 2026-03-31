@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++17 -O2
 
 all: code
 
-code: main.cpp evil.hpp
+code: main.cpp src.hpp evil.hpp
 	$(CXX) $(CXXFLAGS) -o code main.cpp
 
 clean:
